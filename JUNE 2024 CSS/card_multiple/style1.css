@@ -1,0 +1,73 @@
+body {
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+div {
+    height: fit-content;
+    min-width: 20%;
+    margin: 12px;
+    float: left;
+    padding: 10px;
+    background-color: rgb(78, 255, 110);
+    border-radius: 8px;
+}
+@media only screen and (min-width:320px) and (max-width:426px) {
+    body {
+        background-color: rgb(167, 102, 253);
+        display: grid;
+    }
+}
+
+
+    @media only screen and (min-width:426px) and (max-width:768px) {
+        body {
+            background-color: rgb(135, 136, 136);
+        }
+
+        div {
+            width: 44%;
+        }
+    }
+
+    @media only screen and (min-width:1024px) {
+        body {
+            background-color: rgb(99, 138, 248);
+            padding: 10px;
+            margin: 10px;
+        }
+        div{
+            height: 25vh;
+        }
+    }
+
+    @media only screen and (min-width:1440px) {
+        body {
+            background-color: rgb(255, 230, 0);
+            padding: 10px;
+            margin: 10px;
+
+        }
+        div{
+            height: 18vh;
+        }
+    }
+
+    @media only screen and (min-width:2560px) {
+        body {
+            background-color: rgb(151, 255, 220);
+        }
+        div{
+            height: 10vh;
+            padding: 10px;
+            margin: 10px;
+        }
+    }
+    img{
+        width: fit-content;
+        height: fit-content;
+    }

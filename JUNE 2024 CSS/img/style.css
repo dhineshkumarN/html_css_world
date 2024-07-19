@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(255, 167, 215);
+    color: rgb(33, 54, 72);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+h1{
+    text-align: center;
+}
+div{
+   padding: 10px;
+}
+img{
+    height: 40vh;
+    width: 100%;
+}
